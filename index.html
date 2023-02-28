@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-eHx4nbBTkIr2i0m9SANm/cczPESd0DUEcfl84JpIuutE6oDxPhXvskMR08Wmvmfx5wUpVjlWdi82G5YLvqqJdA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>        
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary p-4 fs-5">
+        <div class="container-fluid">
+          <a class="logo" href="index.html"><img src="image/logo-oumar.jpg" alt=""><span class="p-3 text-black">FRUITZ</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="About Us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Catalogue.html">Catalog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contacts.html">Contacts</a>
+              </li>
+            </ul>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+      <section class="carousel">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner the-container">
+              <div class="carousel-item Item-Carous active">
+                <img src="Mes-images/mangoes-1320111_960_720.jpg" class="d-block w-100 img-fluid rounded-start" alt="...">
+                <div class="carousel-caption mb-5 me-5 d-md-block overlay text-primary">
+                    <h1 class="text-md-start titre-1">Fruitz-sale of food products fruits</h1>
+                    <p class="text-md-start paragraphe">Fruitz, the site dedicated to edible fruits from around the world.</p>
+                    <button type="button" class="btn btn-outline-light my-button text-primary">About US</button>
+                </div>    
+              </div>
+              <div class="carousel-item Item-Carous">
+                <img src="Mes-images/farmers-1311017__340.jpg" class="d-block w-100 img-fluid rounded-start" alt="...">
+                <div class="carousel-caption mb-5 me-5 d-md-block overlay text-primary">
+                  <h1 class="text-md-start titre-1">Fruitz-sale of food products fruits</h1>
+                  <p class="text-md-start paragraphe">Fruitz, the site dedicated to edible fruits from around the world.</p>
+                  <button type="button" class="btn btn-outline-light my-button text-primary">About US</button>
+                </div>
+              </div>
+              <div class="carousel-item Item-Carous">
+                <img src="Mes-images/cherries-2905964__340.jpg" class="d-block w-100 img-fluid rounded-start" alt="...">
+                <div class="carousel-caption mb-5 me-5 d-md-block overlay text-primary">
+                  <h1 class="text-md-start titre-1">Fruitz-sale of food products fruits</h1>
+                  <p class="text-md-start paragraphe">Fruitz, the site dedicated to edible fruits from around the world.</p>
+                  <button type="button" class="btn btn-outline-light my-button text-primary">About US</button>
+                  </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+
+      <section class="available my-5 ms-5 me-5">
+        <h1 class="text-center my-5">Featured Products</h1>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card h-100 border-0">
+                <img src="Mes-images/avocados-3399809__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, beatae</h4>
+                    <p>Learn more</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0">
+                <img src="Mes-images/grapes-3550733__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, velit</h4>
+                    <p>Learn more</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0">
+                <img src="Mes-images/papaya-tree-2918226__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, maiores.</h4>
+                    <p>Learn more</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0">
+                <img src="Mes-images/fruit-6630377__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, odit.</h4>
+                    <p>Learn more</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="available my-5 ms-5 me-5">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card h-100 border-0">
+                <img src="Mes-images/food-3222846__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, sed.</h4>
+                    <p>Learn more</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0">
+                <img src="Mes-images/food-3222859__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, minima.</h4>
+                    <p>Learn more</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0">
+                <img src="Mes-images/oranges-2903106__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, aspernatur?</h4>
+                    <p>Learn more</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0">
+                <img src="Mes-images/berries-2277__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, animi</h4>
+                    <p>Learn more</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="cc-menu my-5">
+        <h3 class="text-center">Fruits help you live <br>healthier and happier</h3>
+        <div class="card-group me-5 ms-5 my-5">
+          <div class="card border-0 me-5 ms-5 my-5">
+            <h4 class="text-center me-auto ms-auto text-bg-secondary p-3 text-black">By nature we are made to eat fresh and organic fruits and vegetables</h4>
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, dolorem. Doloremque optio cupiditate vitae quod.</p>
+            </div>
+          </div>
+          <div class="card border-0 me-5 ms-5 my-5">
+            <h4 class="text-center me-auto ms-auto text-bg-secondary p-3 text-black">Fruit helps us improve our mood, have more energy and build a healthier</h4>
+            <div class="card-body">
+             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A aut soluta vel, quae fugit quo!</p>
+            </div>
+          </div>
+          <div class="card border-0 me-5 ms-5 my-5">
+            <h4 class="text-center me-auto ms-auto text-bg-secondary p-3 text-black">Fruit are loaded with valuable that can boost our immunity</h4>
+            <div class="card-body">
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, aut cum pariatur itaque a quaerat!</p>
+            </div>
+          </div>
+        </div>
+          <div class="d-flex justify-content-center"><button type="button" class="btn btn-outline-secondary">All categories</button></div>
+      </section>
+
+      <section class="photos">
+        <div class="container">
+          <h1 class="text-center">Good quality fruit suppliers</h1>      
+                <div class="row">
+                <div class="col-2 mt-4">
+                <img src="Mes-images/pomegranate-196800__340.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="col-2 mt-4">
+                  <img src="Mes-images/strawberries-4181684__340.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="col-2 mt-4">
+                  <img src="Mes-images/pomegranate-3802408__340.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="col-2 mt-4">
+                  <img src="Mes-images/tangerines-3105628__340.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="col-2 mt-4">
+                  <img src="Mes-images/watermelon-1969949__340.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="col-2 mt-4">
+                  <img src="Mes-images/pomegranate-3802409__340.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>  
+        </div>
+      </section>
+
+      <section class="project my-5">
+        <div class="container">
+          <h1 class="text-center my-5">Our harvets</h1>
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-touch="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="Mes-images/apples-6813084__340.jpg" class="d-block w-100 img-fluid" alt="...">
+                <p class="text-center my-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="Mes-images/bananas-1119790__340.jpg" class="d-block w-100 img-fluid" alt="...">
+                <p class="text-center my-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+              <div class="carousel-item">
+                <img src="Mes-images/tangerines-3105628__340.jpg" class="d-block w-100 img-fluid" alt="...">
+                <p class="text-center my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <button class="carousel-control-prev free-btn" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon free-btn" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next free-btn-1" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon free-btn" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="d-flex justify-content-center"><button type="button" class="btn btn-outline-secondary my-4">All projects</button></div>
+        </div>
+      </section>
+
+      <section class="Download my-5 text-bg-light p-3">
+        <div class="Catalog my-5">
+        <h1 class="text-center my-5 mt-5">Download Fruits Catalog</h1>
+        <div class="d-flex justify-content-center"><button type="button" class="btn btn-outline-secondary my-4"><i class="bi bi-download fs-2 me-2 bi-outline-dark"></i>Download PDF</button></div>
+      </div>
+      </section>
+
+      <section class="About">
+        <div class="container my-5">
+          <div class="row">
+          <div class="text-bg-secondary p-3">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid" src="Mes-images/istockphoto-512983267-170667a.jpg" alt="">
+            </div>
+          </div>
+          <div class="">
+            <h1 class="text-center my-5">About Us</h1>
+            <p class="text-center p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum quidem blanditiis labore minima dignissimos unde ipsam facere delectus sed deserunt provident ducimus, itaque eius odio quia soluta, aliquam debitis quisquam repellendus voluptate. Odit deserunt officiis ratione iste assumenda facilis quas, quidem aperiam molestiae veniam ut consequatur aliquam minus error voluptas adipisci quia sint maiores, 
+              praesentium vel rerum pariatur cupiditate dolores? Aperiam quo quidem quibusdam? Voluptates distinctio velit sequi ab saepe.</p>
+            <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo provident ullam praesentium inventore beatae distinctio.</p>
+            <div class="d-flex justify-content-center">
+              <button type="button" class="btn btn-outline-secondary my-4">Read more</button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cc-menu my-5">             
+        <div class="container">
+          <h1 class="text-center">What We Offer</h1>
+          <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quod earum voluptates praesentium quisquam, 
+            nemo doloremque neque placeat voluptate molestias unde suscipit optio eius rerum.</p>
+          <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card h-100 border-0">
+                <img src="Mes-images/melon-625130__340.jpg" alt="">
+                <div class="card-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, accusantium.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0">
+                <img src="Mes-images/mango-642957__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, non!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0">
+                <img src="Mes-images/melon-2314618__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, rerum?</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0">
+                <img src="Mes-images/pineapple-1834329__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, temporibus.</p>
+                </div>
+              </div>
+            </div>
+          </div>        
+          <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card h-100 border-0">
+                <img src="Mes-images/grapes-3550733__340.jpg" alt="">
+                <div class="card-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, facilis.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0">
+                <img src="Mes-images/manilkara-zapota-272619__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, provident</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0">
+                <img src="Mes-images/jack-fruit-5429143__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, debitis</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0">
+                <img src="Mes-images/watermelon-1969949__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, repellendus!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>       
+      </section>
+
+      <section class="available my-5 text-bg-secondary p-3 mt-5">
+        <div class="container my-5">
+          <h1 class="text-center">Subscribe to Our Newsletter <br> and receive  a 7% discount on the wholesale fruit order!</h1>
+          <div class="d-flex  justify-content-center ">
+              <div class="input-group w-50">           
+                <input type="text" class="form-control" placeholder="Email" 
+                aria-label="Email" aria-describedby="button-addon2">
+                <button class="btn btn-outline-light p-3" type="button" id="button-addon2">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cc-available my-5">
+        <div class="container my-5">
+          <h1 class="text-center">Passion for Innovations</h1>
+          <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil corrupti inventore vel sed. Odit, eos praesentium ducimus delectus voluptatem natus</p>
+          <div class="card-group my-5">
+            <div class="card border-0 me-5">
+              <img src="Mes-images/jam-428094__340.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h1>Jam</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi cumque est eum blanditiis ipsam, quia odio ipsum accusantium quidem iure illo placeat sequi doloribus dolorum</p>
+              </div>
+            </div>
+            <div class="card border-0 me-5">
+              <img src="Mes-images/orange-1921548__340.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h1>Orange juice</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates necessitatibus esse doloremque blanditiis totam aperiam inventore iure, hic nemo cum obcaecati harum amet minus similique.</p>
+              </div>
+            </div>
+            <div class="card border-0 me-5">
+              <img src="Mes-images/istockphoto-1437615120-170667a.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h1>Apple juice</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In nemo omnis nostrum delectus voluptate impedit earum labore quis, ipsum totam aperiam repudiandae quisquam porro recusandae</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cc-carousel">
+        <div class="container">
+          <div class="card my-5 border-0">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card-body">
+                  <img src="Mes-images/apples-1873078__340.jpg" class="img-fluid" alt="">
+                </div>
+              </div> 
+              <div class="col-md-6 text-bg-secondary p-3 my-3">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <h1 class="text-center text-decoration-underline">What People Say</h1>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active my-5 text-center">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore sint ipsam corrupti dolores expedita quod culpa blanditiis non deleniti est
+                         Dolore vitae, fugiat culpa at reiciendis accusantium ipsum maxime, ipsa nisi neque ab sit magni
+                      </p>
+                      <p>Kate Holmes</p>
+                    </div>
+                    <div class="carousel-item my-5 text-center">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore sint ipsam corrupti dolores expedita quod culpa blanditiis non deleniti est
+                         Dolore vitae, fugiat culpa at reiciendis accusantium ipsum maxime, ipsa nisi neque ab sit magni
+                      </p>
+                        <p>Ann Robertson</p>
+                    </div>
+                    <div class="carousel-item my-5 text-center">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore sint ipsam corrupti dolores expedita quod culpa blanditiis non deleniti est
+                         Dolore vitae, fugiat culpa at reiciendis accusantium ipsum maxime, ipsa nisi neque ab sit magni 
+                      </p>
+                      <p>Jane Stone</p>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+             </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="order-form my-5">
+        <div class="container-fluid">
+          <h1 class="text-center">We produce differently</h1>
+          <div class="row">
+            <div class="card-group my-5">
+              <div class="card border-0 me-5 ms-5">
+                <img src="Mes-images/berries-2277__340.jpg" class="card-img-top" alt="...">
+                <p class="mt-4">Post by fruitz Team / September 22, 2018</p>
+                <div class="card-body">
+                  <h3>Fruit ripens longer on the three</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quas error esse aspernatur totam, voluptatem magni nemo placeat quos repudiandae fugiat officia iste temporibus illo.</p>
+                  <p>Read more</p>
+                </div>
+              </div>
+              <div class="card border-0 me-5">
+                <img src="Mes-images/apple-1632919__340.jpg" class="card-img-top" alt="...">
+                  <p class="mt-4">Post by fruitz Team / September 22, 2018</p>                 
+                <div class="card-body">
+                  <h3>Fruits intense in flavor and active ingredients</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt tenetur voluptas error possimus dolorum sed, quis suscipit repudiandae nemo repellendus obcaecati laboriosam! Voluptate, est placeat?</p>
+                  <p>Read more</p>
+                </div>
+              </div>
+              <div class="card border-0 me-5">
+                <img src="Mes-images/dragon-fruit-1532127__340.jpg" class="card-img-top" alt="...">
+                  <p class="mt-4">Post by fruitz Team / September 22, 2018</p>
+                <div class="card-body">
+                  <h3>Raw products, not heated above 45*C</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis minus animi rem dolores, quam tempore commodi explicabo tempora doloribus velit ea obcaecati molestias libero fugiat.</p>
+                  <p>Read more</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center"><button type="button" class="btn btn-outline-secondary my-4">All news</button></div>
+        </div>
+      </section>
+
+      <section class="order-input text-bg-secondary p-3 my-5">
+        <div class="container text-center text-bg-light p-5 me-auto ms-auto my-5">
+          <h3>If you want to order our fruit or <br> have any questions or inquiries, please <br> contact us now.</h3>
+          <div class="mb-3 w-50 d-flex justify-content-center me-auto ms-auto">
+            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Enter your full name*" disabled>
+          </div>
+          <div class="mb-3 w-50 d-flex justify-content-center me-auto ms-auto">
+            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Enter your phone number*" disabled>
+          </div>
+          <div class="mb-3 w-50 d-flex justify-content-center me-auto ms-auto">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your e-mail*" disabled>
+          </div>
+          <div class="mb-3 w-50 d-flex justify-content-center me-auto ms-auto">
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="type your message" rows="5" disabled></textarea>
+          </div>
+          <div class="mb-3 d-flex justify-content-center ">
+            <button type="button" class="btn btn-outline-dark w-50">send</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="footer text-bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h1>Fruitz</h1>
+              <p>Fruitz is a good quality fruit grower known worldwide for its impeccable quality, exceptional customer service, and fair prices.</p>
+              <p>Created with Draftium ©</p>
+            </div>
+            <div class="col-md-3 me-auto ms-auto text-center">
+              <div class="row">
+              <div class="col-md-4">
+                <h5>Catalog</h5>
+                <p>Testimonials</p>
+                <p>Contacts</p>
+              </div>
+              <div class="col-md-4">
+                <h5>About Us</h5>
+                <p>FAQ</p>
+              </div>
+              <div class="col-md-4">
+                <h5>Blog</h5>
+                <p>Projects</p>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-3">
+              <h1>Follow Us</h1>
+              <div class="icone-footer me-5">
+                <a href="#"><ion-icon size="large" class="" name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon size="large" class="" name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon size="large" class="" name="logo-youtube"></ion-icon></a>
+                <a href="#"><ion-icon size="large" class="" name="logo-pinterest"></ion-icon></a>
+              </div>
+              <p class="my-5">All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+</body>
+</html>
